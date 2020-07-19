@@ -11,7 +11,9 @@ body {
 /* See color guide at the bottom*/
 
 /* HEADER SECTION */
-
+header .container{
+	padding: 50px 0;
+}
 .container {
     width: 85%;
     margin: 0 auto;
@@ -50,6 +52,9 @@ nav.nav.col-4 ul {
 	justify-content: flex-end;
 	list-style: none;
 }
+.header-nav img {
+    max-width: 100%;
+}
 a.menu-btn {
     height: 45px;
     line-height: 45px;
@@ -60,14 +65,36 @@ a.menu-btn {
     font-family: Poppins;
     font-weight: 600;
     letter-spacing: .5px;
-    font-size: 14px;
+    font-size: 12px;
     background: #fff;
     display: inline-block;
-    width: 170px;
+	width: 180px;
     text-decoration: none;
+    box-shadow: 2px 2px 10px -5px #00000061;
 }
 .flex-wrapper.header-nav {
-    justify-content: space-between;
+    justify-content: space-between;	
+    align-items: center;
+}
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 40px;
+}
+.header-content h2 {
+    font-family: Poppins;
+    font-size: 40px;
+    line-height: 60px;
+    color: #00252e;
+    margin-bottom: 20px;
+}
+.header-content p {
+    font-family: Open Sans;
+    color: #00252e;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
 }
 .header-content .button.btn {
     display: inline-block;
@@ -90,7 +117,9 @@ a.menu-btn {
 .desktop-svg {
 	max-width: 100%;
 }
-
+.header-box {
+    margin-top: 60px;
+}
 
 /*main*/
 

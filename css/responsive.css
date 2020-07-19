@@ -1,5 +1,38 @@
 /* HEADER SECTION */
+@media screen and (max-width: 950px) {
+	.header-box {
+		flex-wrap: wrap;
+	}
+	.header-content, .hero-illustration {
+		width: 100%;
+		padding: 0;
+	}
+	.header-content h2 {
+		font-size: 32px;
+		line-height: 46px;
+		text-align: center;
+		max-width: 360px;
+		margin: 0 auto;
+	}
+	.header-content p {
+		max-width: 400px;
+		margin: 20px auto;
+		text-align: center;
+		font-size: 16px;
+	}
+	.header-content .button.btn {
+		margin: 10px auto 50px;
+	}
 
+}
+@media(max-width: 767px){
+	a.menu-btn {
+		height: 40px;
+		line-height: 40px;
+		width: 130px;
+		max-width: 100%;
+	}
+}
 
 /*MAIN-SECTION*/
 
